@@ -1,10 +1,10 @@
 {
     "homepage": "https://gitextensions.github.io/",
     "description": "A graphical user interface for Git that allows you to control Git without using the commandline.",
-    "version": "3.3.1",
+    "version": "3.4.2",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/gitextensions/gitextensions/releases/download/v3.3.1/GitExtensions-Portable-3.3.1.7897.zip",
-    "hash": "1b807e08d5768890c75f763d5b792b7cb37b6dad8411928de0a31f33264ee995",
+    "url": "https://github.com/gitextensions/gitextensions/releases/download/v3.4.2/GitExtensions-Portable-3.4.2.9737-082cfd97d.zip",
+    "hash": "6c333f63b57f696144a04f29bc78bfeaafd89a185fbaf82e82a654a274232af9",
     "extract_dir": "GitExtensions",
     "bin": [
         [
@@ -26,7 +26,7 @@
     "persist": "GitExtensions.settings",
     "checkver": {
         "github": "https://github.com/gitextensions/gitextensions",
-        "regex": "v(?<version>[\\d.]+)/GitExtensions-Portable-(?<build>[\\d.]+).zip"
+        "regex": "v(?<version>[\\d.]+)/GitExtensions-Portable-(?<build>[\\d.]+(?:-.+))\\.zip"
     },
     "autoupdate": {
         "url": "https://github.com/gitextensions/gitextensions/releases/download/v$version/GitExtensions-Portable-$matchBuild.zip"
